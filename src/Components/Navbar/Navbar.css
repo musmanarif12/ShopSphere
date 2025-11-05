@@ -1,0 +1,74 @@
+nav {
+  background-color: #95c6e5; 
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin: 0 12px;
+  transition: all 0.3s ease;
+}
+
+.nav-left a:hover {
+  color: #ffcc00; 
+}
+
+.nav-right button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.nav-right button + button {
+  margin-left: 20px;
+}
+
+.nav-right button:hover {
+  color: #ffcc00;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  min-width: 300px;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

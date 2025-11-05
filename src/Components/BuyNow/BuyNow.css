@@ -1,0 +1,86 @@
+.buy-form {
+    background: #fff;
+    padding: 25px 35px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .buy-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .buy-input,
+  .buy-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .buy-input:focus,
+  .buy-select:focus {
+    border-color: #95c6e5;
+  }
+  
+  .buy-label {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .buy-btn {
+    background: #95c6e5;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.3s;
+    margin-top: 10px;
+  }
+  
+  .buy-btn:hover {
+    background: #95c6e5;
+  }
+  
+
+  .map-frame {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    position: relative; /* relative rakho taake button absolute ke liye base ho */
+  }
+  
+  .map-frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+  }
+  
+  .map-frame .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 4px 8px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  

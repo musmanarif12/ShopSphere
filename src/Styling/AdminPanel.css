@@ -1,0 +1,115 @@
+.admin-panel {
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.admin-panel h1 {
+  color: #95c6e5;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.admin-panel p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.admin-buttons button {
+  background: none;
+  border: 2px solid #95c6e5;
+  color: #95c6e5;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.admin-buttons button:hover {
+  background-color: #95c6e5;
+  color: white;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.modal-content h2 {
+  color: #95c6e5;
+  margin-bottom: 20px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1.5px solid #95c6e5;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.modal-content input:focus {
+  border-color: #667eea;
+}
+
+.modal-content button[type="submit"] {
+  background-color: #95c6e5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.modal-content button[type="submit"]:hover {
+  background-color: #667eea;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #333;
+}

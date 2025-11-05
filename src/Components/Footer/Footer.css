@@ -1,0 +1,55 @@
+.footer {
+    background-color: #95c6e5; 
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.95;
+  }
+  
+  .subscribe-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .subscribe-input {
+    padding: 10px 14px;
+    border-radius: 25px;
+    border: 1px solid #b0e0e6;
+    width: 250px;
+    outline: none;
+    font-size: 14px;
+    color: #1e90ff; 
+    background-color: #ffffff;
+  }
+  
+  .subscribe-input::placeholder {
+    color: #87ceeb; 
+  }
+  
+  .subscribe-btn {
+    background-color: #1e90ff; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #00bfff; 
+    color: #ffffff;
+  }
+  
